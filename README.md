@@ -46,3 +46,8 @@ step 1 and make sure you did the following:
 2. Added the "call pathogen#infect()" line to your ~/.vimrc file
 3. Did the git clone of syntastic inside ~/.vim/bundle
 4. Have permissions to access all of these directories.
+
+### Step 3: Create the p4root.txt file
+
+Run :help p4checkout-p4root to learn how to create the p4root.txt file required
+by p4checkout
