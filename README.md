@@ -12,12 +12,12 @@ the PATH.
 
 ## Installation
 
-Installing syntastic is easy but first you need to have the pathogen plugin installed.  If running on Windows, use C:\users\<username>\vimfiles instead of ~/.vim.  If you already have pathogen working then skip Step 1 and go to Step 2.
+Installing p4checkout is easy but first you need to have the pathogen plugin installed.  If running on Windows, use C:\users\<username>\vimfiles instead of ~/.vim.  If you already have pathogen working then skip Step 1 and go to Step 2.
 
 ### Step 1: Install pathogen.vim
 
 First I'll show you how to install tpope's [pathogen.vim](https://github.com/tpope/vim-pathogen) so that 
-it's easy to install syntastic.  Do this in your Terminal so that you get the pathogen.vim file 
+it's easy to install p4checkout.  Do this in your Terminal so that you get the pathogen.vim file 
 and the directories it needs:
 
     mkdir -p ~/.vim/autoload ~/.vim/bundle; \
@@ -44,7 +44,7 @@ step 1 and make sure you did the following:
 
 1. Created both the ~/.vim/autoload and ~/.vim/bundle directories.
 2. Added the "call pathogen#infect()" line to your ~/.vimrc file
-3. Did the git clone of syntastic inside ~/.vim/bundle
+3. Did the git clone of p4checkout inside ~/.vim/bundle
 4. Have permissions to access all of these directories.
 
 ### Step 3: Create the p4root.txt file
