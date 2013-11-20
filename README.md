@@ -1,10 +1,10 @@
-                     __ __       __              __               __           
-              ____  / // / _____/ /_  ___  _____/ /______  __  __/ /_          
-             / __ \/ // /_/ ___/ __ \/ _ \/ ___/ //_/ __ \/ / / / __/          
-            / /_/ /__  __/ /__/ / / /  __/ /__/ ,< / /_/ / /_/ / /_            
-           / .___/  /_/  \___/_/ /_/\___/\___/_/|_|\____/\__,_/\__/            
-          /_/                                                                  
-                                                                               
+                     __ __       __              __               __ 
+              ____  / // / _____/ /_  ___  _____/ /______  __  __/ /_
+             / __ \/ // /_/ ___/ __ \/ _ \/ ___/ //_/ __ \/ / / / __/
+            / /_/ /__  __/ /__/ / / /  __/ /__/ ,< / /_/ / /_/ / /_  
+           / .___/  /_/  \___/_/ /_/\___/\___/_/|_|\____/\__,_/\__/  
+          /_/                                                        
+                                                                     
 p4checkout is a simple plugin which uses perforce to check out all read-only
 files on edit with support for multiple simultaneous client workspaces.  It
 uses the p4 command-line utilities, which must be installed and available in
