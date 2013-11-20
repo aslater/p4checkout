@@ -55,12 +55,11 @@ p4workspace = my_workspace
 p4path = //depot/my_path
 p4user = dummy
 p4pass = dummy_password
-p4host = my_hostname
-p4port = 1666
+p4port = my_hostname:1666
 
 The only required value is p4path, which gives the repository location of the
 directory containing p4root.txt.  All other values are optional; the defaults
-given in the P4CLIENT, P4USER, P4PASSWD, P4HOST, and P4PORT environment
+given in the P4CLIENT, P4USER, P4PASSWD, and P4PORT environment
 variables will be used if they are not present.
 
 p4root.txt does not need to be located in the same directory as any files to
