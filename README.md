@@ -12,8 +12,7 @@ the PATH.
 
 ## Installation
 
-Installing syntastic is easy but first you need to have the pathogen plugin installed.  If you already
-have pathogen working then skip Step 1 and go to Step 2.
+Installing syntastic is easy but first you need to have the pathogen plugin installed.  If running on Windows, use C:\users\<username>\vimfiles instead of ~/.vim.  If you already have pathogen working then skip Step 1 and go to Step 2.
 
 ### Step 1: Install pathogen.vim
 
