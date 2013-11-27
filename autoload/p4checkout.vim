@@ -95,6 +95,7 @@ function! p4checkout#P4Checkout()
       if v:shell_error == 0
          set noreadonly
          edit
+         syntax enable
       endif
    endif
 endfunction
